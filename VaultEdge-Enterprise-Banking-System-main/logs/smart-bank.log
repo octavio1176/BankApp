@@ -1,0 +1,190 @@
+2026-06-09T20:20:24.249+02:00  INFO 4144 --- [smartbank-management-system] [restartedMain] b.s.SmartBankManagementSystemApplication : Starting SmartBankManagementSystemApplication using Java 26.0.1 with PID 4144 (C:\Users\Zango\Music\VaultEdge-Enterprise-Banking-System-main\SmartBank\target\classes started by Zango in C:\Users\Zango\Music\VaultEdge-Enterprise-Banking-System-main)
+2026-06-09T20:20:24.260+02:00 DEBUG 4144 --- [smartbank-management-system] [restartedMain] b.s.SmartBankManagementSystemApplication : Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-06-09T20:20:24.262+02:00  INFO 4144 --- [smartbank-management-system] [restartedMain] b.s.SmartBankManagementSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2026-06-09T20:20:24.460+02:00  INFO 4144 --- [smartbank-management-system] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-09T20:20:24.461+02:00  INFO 4144 --- [smartbank-management-system] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-09T20:20:26.165+02:00  INFO 4144 --- [smartbank-management-system] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-09T20:20:26.327+02:00  INFO 4144 --- [smartbank-management-system] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 144 ms. Found 4 JPA repository interfaces.
+2026-06-09T20:20:27.772+02:00  INFO 4144 --- [smartbank-management-system] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-09T20:20:27.801+02:00  INFO 4144 --- [smartbank-management-system] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-09T20:20:27.802+02:00  INFO 4144 --- [smartbank-management-system] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-06-09T20:20:27.896+02:00  INFO 4144 --- [smartbank-management-system] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-09T20:20:27.896+02:00  INFO 4144 --- [smartbank-management-system] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3434 ms
+2026-06-09T20:20:28.269+02:00  INFO 4144 --- [smartbank-management-system] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-09T20:20:28.416+02:00  INFO 4144 --- [smartbank-management-system] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2026-06-09T20:20:28.546+02:00  INFO 4144 --- [smartbank-management-system] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-09T20:20:29.219+02:00  INFO 4144 --- [smartbank-management-system] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-09T20:20:29.289+02:00  INFO 4144 --- [smartbank-management-system] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-09T20:20:29.928+02:00  INFO 4144 --- [smartbank-management-system] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/smart_bank user=SA
+2026-06-09T20:20:29.931+02:00  INFO 4144 --- [smartbank-management-system] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-09T20:20:29.987+02:00  WARN 4144 --- [smartbank-management-system] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09T20:20:30.031+02:00  INFO 4144 --- [smartbank-management-system] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-09T20:20:32.546+02:00  INFO 4144 --- [smartbank-management-system] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-09T20:20:32.698+02:00  INFO 4144 --- [smartbank-management-system] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09T20:20:33.553+02:00 DEBUG 4144 --- [smartbank-management-system] [restartedMain] c.b.s.security.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
+2026-06-09T20:20:33.830+02:00  INFO 4144 --- [smartbank-management-system] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-09T20:20:35.755+02:00  WARN 4144 --- [smartbank-management-system] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-09T20:20:36.500+02:00  INFO 4144 --- [smartbank-management-system] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-06-09T20:20:36.777+02:00 DEBUG 4144 --- [smartbank-management-system] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-09T20:20:37.165+02:00  WARN 4144 --- [smartbank-management-system] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2026-06-09T20:20:37.334+02:00  INFO 4144 --- [smartbank-management-system] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/smart_bank'
+2026-06-09T20:20:37.564+02:00  INFO 4144 --- [smartbank-management-system] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-06-09T20:20:37.822+02:00  INFO 4144 --- [smartbank-management-system] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-06-09T20:20:37.854+02:00  INFO 4144 --- [smartbank-management-system] [restartedMain] b.s.SmartBankManagementSystemApplication : Started SmartBankManagementSystemApplication in 14.874 seconds (process running for 17.507)
+2026-06-09T20:20:38.069+02:00 DEBUG 4144 --- [smartbank-management-system] [restartedMain] org.hibernate.SQL                        : 
+    select
+        u1_0.id 
+    from
+        users u1_0 
+    where
+        u1_0.email=? 
+    fetch
+        first ? rows only
+2026-06-09T20:20:38.116+02:00  INFO 4144 --- [smartbank-management-system] [restartedMain] com.bank.smartbank.config.DataSeeder     : Admin user already exists
+2026-06-09T20:21:25.639+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /h2-console
+2026-06-09T20:21:25.668+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:25.678+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /h2-console
+2026-06-09T20:21:25.745+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /h2-console/
+2026-06-09T20:21:25.750+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:25.751+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /h2-console/
+2026-06-09T20:21:26.035+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /h2-console/stylesheet.css
+2026-06-09T20:21:26.037+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:26.040+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /h2-console/stylesheet.css
+2026-06-09T20:21:26.126+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /h2-console/login.jsp?jsessionid=c28d4eda59ad7ef6541e3abd0c240e68
+2026-06-09T20:21:26.128+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:26.128+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /h2-console/login.jsp?jsessionid=c28d4eda59ad7ef6541e3abd0c240e68
+2026-06-09T20:21:26.189+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /h2-console/background.gif
+2026-06-09T20:21:26.189+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:26.190+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /h2-console/background.gif
+2026-06-09T20:21:26.400+02:00  INFO 4144 --- [smartbank-management-system] [http-nio-8080-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-09T20:21:26.401+02:00  INFO 4144 --- [smartbank-management-system] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-09T20:21:26.413+02:00  INFO 4144 --- [smartbank-management-system] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2026-06-09T20:21:26.415+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /favicon.ico
+2026-06-09T20:21:26.416+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:26.423+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-6] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2026-06-09T20:21:26.490+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /error
+2026-06-09T20:21:26.491+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /error
+2026-06-09T20:21:26.785+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:31.381+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing POST /h2-console/login.do?jsessionid=c28d4eda59ad7ef6541e3abd0c240e68
+2026-06-09T20:21:31.406+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:31.407+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured POST /h2-console/login.do?jsessionid=c28d4eda59ad7ef6541e3abd0c240e68
+2026-06-09T20:21:31.460+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /h2-console/header.jsp?jsessionid=c28d4eda59ad7ef6541e3abd0c240e68
+2026-06-09T20:21:31.461+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:31.463+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /h2-console/header.jsp?jsessionid=c28d4eda59ad7ef6541e3abd0c240e68
+2026-06-09T20:21:31.463+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /h2-console/tables.do?jsessionid=c28d4eda59ad7ef6541e3abd0c240e68
+2026-06-09T20:21:31.464+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:31.465+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /h2-console/tables.do?jsessionid=c28d4eda59ad7ef6541e3abd0c240e68
+2026-06-09T20:21:31.475+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /h2-console/query.jsp?jsessionid=c28d4eda59ad7ef6541e3abd0c240e68
+2026-06-09T20:21:31.476+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:31.477+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /h2-console/query.jsp?jsessionid=c28d4eda59ad7ef6541e3abd0c240e68
+2026-06-09T20:21:31.485+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /h2-console/help.jsp?jsessionid=c28d4eda59ad7ef6541e3abd0c240e68
+2026-06-09T20:21:31.485+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:31.486+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /h2-console/help.jsp?jsessionid=c28d4eda59ad7ef6541e3abd0c240e68
+2026-06-09T20:21:31.542+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /h2-console/icon_disconnect.gif
+2026-06-09T20:21:31.543+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:31.544+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /h2-console/icon_disconnect.gif
+2026-06-09T20:21:31.547+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /h2-console/icon_line.gif
+2026-06-09T20:21:31.549+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:31.556+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /h2-console/icon_line.gif
+2026-06-09T20:21:31.575+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /h2-console/icon_help.gif
+2026-06-09T20:21:31.576+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:31.576+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /h2-console/icon_help.gif
+2026-06-09T20:21:31.583+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /h2-console/icon_commit.gif
+2026-06-09T20:21:31.588+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:31.589+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /h2-console/icon_commit.gif
+2026-06-09T20:21:31.583+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /h2-console/icon_rollback.gif
+2026-06-09T20:21:31.591+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:31.591+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /h2-console/icon_rollback.gif
+2026-06-09T20:21:31.594+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /h2-console/icon_run.gif
+2026-06-09T20:21:31.595+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:31.595+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /h2-console/icon_run.gif
+2026-06-09T20:21:31.589+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /h2-console/icon_refresh.gif
+2026-06-09T20:21:31.596+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:31.598+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /h2-console/icon_refresh.gif
+2026-06-09T20:21:31.632+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /h2-console/icon_history.gif
+2026-06-09T20:21:31.638+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:31.639+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /h2-console/icon_history.gif
+2026-06-09T20:21:31.643+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /h2-console/icon_stop.gif
+2026-06-09T20:21:31.643+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /h2-console/icon_run_selected.gif
+2026-06-09T20:21:31.644+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:31.644+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:31.644+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /h2-console/icon_stop.gif
+2026-06-09T20:21:31.645+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /h2-console/icon_run_selected.gif
+2026-06-09T20:21:31.809+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /h2-console/tree.js
+2026-06-09T20:21:31.809+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:31.809+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /h2-console/tree.js
+2026-06-09T20:21:31.832+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /h2-console/tree_minus.gif
+2026-06-09T20:21:31.833+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:31.834+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /h2-console/tree_minus.gif
+2026-06-09T20:21:31.836+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /h2-console/tree_column.gif
+2026-06-09T20:21:31.836+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:31.836+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /h2-console/tree_column.gif
+2026-06-09T20:21:31.839+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /h2-console/tree_empty.gif
+2026-06-09T20:21:31.839+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:31.840+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /h2-console/tree_empty.gif
+2026-06-09T20:21:31.845+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /h2-console/tree_table.gif
+2026-06-09T20:21:31.846+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:31.846+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /h2-console/tree_table.gif
+2026-06-09T20:21:31.848+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /h2-console/tree_database.gif
+2026-06-09T20:21:31.849+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:31.856+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /h2-console/tree_plus.gif
+2026-06-09T20:21:31.857+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:31.850+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /h2-console/tree_database.gif
+2026-06-09T20:21:31.861+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /h2-console/tree_plus.gif
+2026-06-09T20:21:31.863+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /h2-console/tree_type.gif
+2026-06-09T20:21:31.866+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /h2-console/tree_index_az.gif
+2026-06-09T20:21:31.866+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:31.873+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /h2-console/tree_type.gif
+2026-06-09T20:21:31.875+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:31.875+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /h2-console/tree_index_az.gif
+2026-06-09T20:21:31.890+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /h2-console/tree_info.gif
+2026-06-09T20:21:31.891+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:31.893+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /h2-console/tree_info.gif
+2026-06-09T20:21:31.898+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /h2-console/tree_folder.gif
+2026-06-09T20:21:31.902+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:31.903+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /h2-console/tree_folder.gif
+2026-06-09T20:21:31.916+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /h2-console/tree_index.gif
+2026-06-09T20:21:31.922+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:31.925+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /h2-console/tree_view.gif
+2026-06-09T20:21:31.926+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:31.926+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /h2-console/tree_index.gif
+2026-06-09T20:21:31.926+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /h2-console/tree_view.gif
+2026-06-09T20:21:31.980+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /favicon.ico
+2026-06-09T20:21:31.980+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:31.982+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-4] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2026-06-09T20:21:31.990+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /error
+2026-06-09T20:21:31.992+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /error
+2026-06-09T20:21:31.998+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:36.377+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing POST /h2-console/query.do?jsessionid=c28d4eda59ad7ef6541e3abd0c240e68
+2026-06-09T20:21:36.377+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:36.377+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured POST /h2-console/query.do?jsessionid=c28d4eda59ad7ef6541e3abd0c240e68
+2026-06-09T20:21:36.412+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /h2-console/stylesheet.css
+2026-06-09T20:21:36.413+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:36.413+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /h2-console/stylesheet.css
+2026-06-09T20:21:36.415+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /h2-console/table.js
+2026-06-09T20:21:36.417+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:36.419+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /h2-console/table.js
+2026-06-09T20:21:48.397+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /h2-console/query.do?jsessionid=c28d4eda59ad7ef6541e3abd0c240e68
+2026-06-09T20:21:48.398+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:48.398+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /h2-console/query.do?jsessionid=c28d4eda59ad7ef6541e3abd0c240e68
+2026-06-09T20:21:48.428+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /h2-console/stylesheet.css
+2026-06-09T20:21:48.429+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:48.429+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /h2-console/stylesheet.css
+2026-06-09T20:21:48.435+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /h2-console/table.js
+2026-06-09T20:21:48.435+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:48.436+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /h2-console/table.js
+2026-06-09T20:21:57.605+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing POST /h2-console/query.do?jsessionid=c28d4eda59ad7ef6541e3abd0c240e68
+2026-06-09T20:21:57.605+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T20:21:57.606+02:00 DEBUG 4144 --- [smartbank-management-system] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured POST /h2-console/query.do?jsessionid=c28d4eda59ad7ef6541e3abd0c240e68
+2026-06-09T20:22:09.254+02:00  INFO 4144 --- [smartbank-management-system] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-09T20:22:09.295+02:00  INFO 4144 --- [smartbank-management-system] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-06-09T20:22:09.358+02:00  INFO 4144 --- [smartbank-management-system] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09T20:22:09.410+02:00  INFO 4144 --- [smartbank-management-system] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-09T20:22:09.415+02:00  INFO 4144 --- [smartbank-management-system] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
