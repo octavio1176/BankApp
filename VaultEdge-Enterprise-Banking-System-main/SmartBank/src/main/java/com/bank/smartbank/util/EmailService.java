@@ -65,7 +65,7 @@ public class EmailService {
 
 	private String buildOtpEmailBody(String otp) {
 		return String.format(""" 
-				kmk DEV
+				
 				seu codigo de de login e :
 					%s
 					e expira em  %d minutes.
@@ -74,51 +74,51 @@ public class EmailService {
 
 	private String buildWelcomeEmailBody(String name) {
 		return String.format("""
-				Dear %s,
+				Caro %s,
 
-				Welcome to Smart Bank!
+				Bem vindo ao  Smart Bank!
 
-				Your account has been successfully created. You can now:
-				- Create savings and current accounts
-				- Transfer funds securely
-				- Apply for loans
-				- Track your transactions
+				Sua conta foi criada com sucesso. agora voce pode:
+				- Criar contas poupanca
+				- Fazer transferencias
+				- Fazer emprestimos
+				- Monitorar seu saldo
 
-				Thank you for choosing Smart Bank.
+				Obrigado por escolher o  Smart Bank.
 
-				Best regards,
+				
 				Smart Bank Team
 				""", name);
 	}
 
 	private String buildTransferEmailBody(String transactionRef, String amount) {
 		return String.format("""
-				Dear Customer,
+				Caro cliente,
 
-				Your transfer has been completed successfully.
+				Sua transferencia for realizada com sucesso.
 
-				Transaction Reference: %s
-				Amount: ₹%s
+				COdigo de Referencia: %s
+				Valor: ₹%s
 
-				If you did not authorize this transaction, please contact us immediately.
+				se desconhece essa transacao contacte o time de suporte.
 
-				Best regards,
+				
 				Smart Bank Team
 				""", transactionRef, amount);
 	}
 
 	private String buildLoanApprovalEmailBody(String loanNumber, String amount) {
 		return String.format("""
-				Dear Customer,
+				Caro Cliente,
 
-				Congratulations! Your loan application has been approved.
+				Parabens! se pedido de emprestimo foi aprovado com sucesso.
 
-				Loan Number: %s
-				Approved Amount: ₹%s
+				numero do pedido: %s
+				valor aprovado: ₹%s
 
-				The amount will be credited to your account within 24 hours.
+				seu pedido de emprestimo sera adicionado a sua conta em 24h.
 
-				Best regards,
+				
 				Smart Bank Team
 				""", loanNumber, amount);
 	}
